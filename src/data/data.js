@@ -5,7 +5,7 @@ const data = [
 
 
     {
-        question:'' ,
+        question:'What can I watch on Netflix?' ,
         answer: 'Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.',
         more: 'Check out some of our content.',
     },
