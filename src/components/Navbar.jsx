@@ -65,7 +65,8 @@ function Navbar() {
                   </div>
               </div>
               <div  className='absolute flex flex-col justify-center items-center w-full'>
-                  <p className='sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-2xl text-center'>{t('UnlimitedmoviesTVshowsandmore')} </p>
+                  <p className='sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-2xl text-center'>{t(`UnlimitedmoviesTV`)} </p>
+                  <p className='sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-2xl text-center'>{t(`showsandmore`)} </p>
                   <p className='sm:text-sm md:text-base lg:text-lg xl:text-xl font-medium text-lg mt-6 mb-8'>{t('WatchanywhereCancelanytime')}</p>
                   <span className='sm:text-sm md:text-base lg:text-lg xl:text-xl font-light text-sm mb-4'>{t("ReadytowatchEnteryouremailtocreateorrestartyourmembership")}</span>
                   <div  className=' flex  justify-center'>

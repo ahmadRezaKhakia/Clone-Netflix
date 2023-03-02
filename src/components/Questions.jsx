@@ -5,7 +5,7 @@ import { AiOutlineRight } from "react-icons/ai";
 import { AiOutlinePlus } from "react-icons/ai";
 import { Link } from 'react-router-dom';
 import data from '../data/data';
-import {useTranslation } from 'react-i18next';
+import {useTranslation} from 'react-i18next';
 
 
 
@@ -52,7 +52,7 @@ function Questions() {
         <p className='lg:text-xl p-5 text-base font-normal text-white'>{t('ReadytowatchEnteryouremailtocreateorrestartyourmembership') }</p>
         <div className=' flex  justify-center mb-20'>
           <input className='lg:w-[500px] lg:p-[20px] w-[250px] p-[10px]' type="text" placeholder='Email Address' />
-          <Link className='' to='/signup'><button className='lg:text-2xl flex justify-center justify-items-center items-center bg-red-600 text-white font-bold text-xl p-4 '>Get Started <AiOutlineRight /> </button></Link>
+          <Link className='' to='/signup'><button className='lg:text-2xl flex justify-center justify-items-center items-center bg-red-600 text-white font-bold text-xl p-4 '>{t('getstart')} <AiOutlineRight /> </button></Link>
         </div>
       </div>
             

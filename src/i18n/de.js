@@ -1,11 +1,9 @@
-// eslint-disable-next-line import/no-anonymous-default-export
-
-
 const de = {
     account: "rekening",
     logout: "uitloggen",
     signin: "Aanmelden",
-    UnlimitedmoviesTVshowsandmore: 'Unbegrenzt Filme, Fernsehsendungen und mehr',
+    UnlimitedmoviesTV: 'Unbegrenzt Filme, ',
+    showsandmore:'Fernsehsendungen und mehr',
     WatchanywhereCancelanytime: "Überall ansehen. Jederzeit kündbar.",
     ReadytowatchEnteryouremailtocreateorrestartyourmembership: "Bereit zum Zuschauen? Geben Sie Ihre E-Mail-Adresse ein, um Ihre Mitgliedschaft zu erstellen oder neu zu starten",
     getstart:'Fangen Sie an',
